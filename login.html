@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="main-head">
+
+        <nav>
+            <img src="svg/peixe.svg" alt="peixe" class="img-logo">
+            <h1 id="logo">Fish In Gorpa</h1>
+            <ul>
+                <li><a href="Index.html">Home</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="carrinho.html"><img src="svg/carrinho-de-compras.svg" alt="carrinho" class="cart"></a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section class="cadastro">
+            <form name="frmCadastro" action="">
+                <div class="registro container">
+                    <h1>Login</h1>
+    
+                    <label for="email"><b>Email</b></label>
+                    <input type="text" name="email" id="email" onblur="deixarEmBranco('email')">
+                    
+    
+                    <label for="psw"><b>Senha</b></label>
+                    <input type="password" name="psw" id="psw" onblur="deixarEmBranco('psw')">               
+    
+                    <hr>
+
+                    <button type="submit">Login</button>
+                </div>
+    
+                <div class="container signin">
+                    <p>Não tem uma conta? <a href="#" class="link-fundo">Se cadastrar</a>.</p>
+                </div>
+            </form>
+    </section>
+    <script src="js/login.js"></script>
+</body>
+
+</html>
