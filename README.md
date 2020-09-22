@@ -20,7 +20,7 @@ Funções
 - [x] Função auto-executável
 - [x] Função com nome
 - [x] Função aninhada/local - declarar uma função dentro de outra
-- [x] Passagem de uma função como parâmetro
+- [ ] Passagem de uma função como parâmetro
 - [x] Função Flecha - Arrow Function
 
 Eventos
@@ -45,7 +45,7 @@ Tratadores de Evento
 - [x] Especificar o tratador de evento inline
 - [x] Especificar o tratador de evento no carregamento da página HTML no modo tradicional - no onload
 - [ ] Especificar o tratador de evento no carregamento da página HTML com a função addEventListener - no onload
-- [ ] Usar o operador this em funções tratadoras de eventos.
+- [x] Usar o operador this em funções tratadoras de eventos.
 
 Objetos Nativos
 
