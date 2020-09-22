@@ -25,25 +25,25 @@ Funções
 
 Eventos
 
-- [ ] Evento de carregamento do documento - onload
-- [ ] Evento de movimento do mouse
-- [ ] Evento de teclado - usar charCode ou keyCode
-- [ ] Eventos de formulário - onfocus e onblur
+- [X] Evento de carregamento do documento - onload
+- [X] Evento de movimento do mouse
+- [X] Evento de teclado - usar charCode ou keyCode
+- [X] Eventos de formulário - onfocus e onblur
 - [ ] Imprimir alguma propriedade do objeto event recebido como parâmetro
 - [ ] Propagação de eventos no modelo bolha (usar target e currentTarget, ou seja, disparar o evento em um elemento filho e capturar em um elemento pai) 
 
 Acesso aos elementos DOM do HTML
 
-- [ ] Via referência DOM pelo id do elemento HTML
-- [ ] Via getElementByID()
-- [ ] Via getElementsByName()
+- [x] Via referência DOM pelo id do elemento HTML
+- [x] Via getElementByID()
+- [x] Via getElementsByName()
 - [ ] Via getElementsByTagName()
 - [ ] Via seletores CSS usados na função querySelector() ou querySelectorAll()
 
 Tratadores de Evento
 
-- [ ] Especificar o tratador de evento inline
-- [ ] Especificar o tratador de evento no carregamento da página HTML no modo tradicional - no onload
+- [x] Especificar o tratador de evento inline
+- [x] Especificar o tratador de evento no carregamento da página HTML no modo tradicional - no onload
 - [ ] Especificar o tratador de evento no carregamento da página HTML com a função addEventListener - no onload
 - [ ] Usar o operador this em funções tratadoras de eventos.
 
