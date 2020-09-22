@@ -1,5 +1,5 @@
 GitHub Pages: 
-https://utfpr-gp.github.io/vixe-quebrou-js/.
+
 
 Caixas de Diálogo
 
