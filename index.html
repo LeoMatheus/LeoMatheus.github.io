@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+
+  <body onload="aviso()">
+    <header class="main-head">
+      <nav class="header-nav">
+        <h1 id="logo"><span class="logo-sigla">UTF</span>Shop</h1>
+        <div class="barra-pesquisa">
+          <input type="text" placeholder="Procure.." />
+          <img src="svg/search-solid.svg" alt="" />
+        </div>
+
+        <ul>
+          <li><a href="./login.html">Login</a></li>
+          <li><a href="#">Carrinho</a></li>
+        </ul>
+      </nav>
+    </header>
+    <nav class="links">
+      <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="">Galeria</a></li>
+        <li><a href="">Novidades</a></li>
+        <li><a href="./areaFuncionario.html">Area Funcionario</a></li>
+      </ul>
+    </nav>
+    <section class="hero">
+      <h2>
+        Sua loja de eletronicos <br />
+        do mais variado tipo
+      </h2>
+    </section>
+    <section class="items">
+      <div class="caixa-item">
+        <img src="Img/Items/smartp_1.png" alt="" class="imagem-item" />
+        <div class="items-texto">
+          <h3 class="caixa-text">Smartphone</h3>
+          <a href=""><img src="svg/Exclude.svg" alt="" /></a>
+        </div>
+      </div>
+      <div class="caixa-item">
+        <img src="Img/Items/laptop.png" alt="" class="imagem-item laptop" />
+        <div class="items-texto">
+          <h3 class="caixa-text">Laptop</h3>
+          <a href=""><img src="svg/Exclude.svg" alt="" /></a>
+        </div>
+      </div>
+      <div class="caixa-item">
+        <img
+          src="Img/Items/africa-pt-fhd-monitor-350fh-ls27f350fhmxzn-frontblack-283329099.webp"
+          alt=""
+          class="imagem-item"
+        />
+        <div class="items-texto">
+          <h3 class="caixa-text">Monitor</h3>
+          <a href=""><img src="svg/Exclude.svg" alt="" /></a>
+        </div>
+      </div>
+      <div class="caixa-item">
+        <img src="Img/Items/LS02.png" alt="" class="imagem-item smartwatch" />
+        <div class="items-texto">
+          <h3 class="caixa-text">SmarWatch</h3>
+          <a href=""><img src="svg/Exclude.svg" alt="" /></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="beneficios">
+      <div class="caixa-beneficio-texto">
+        <h1 class="main-texto-beneficios">
+          Por que <span class="logo-sigla">UTF</span>Shop
+        </h1>
+        <div class="img-beneficio">
+          <img
+            src="Img/Sobre/252-2520860_laptop-with-man-png-man-with-laptop-png.jpeg"
+            alt=""
+          />
+        </div>
+      </div>
+
+      <div class="container-caixa-beneficios">
+        <div class="caixa-beneficio">
+          <img src="svg/Caminhao.svg" alt="" />
+          <div class="texto-beneficio">
+            <h1>Frete Gratis</h1>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat
+              explicabo.
+            </p>
+          </div>
+        </div>
+        <div class="caixa-beneficio">
+          <img src="svg/Dinheiro-mao.svg" alt="" />
+          <div class="texto-beneficio">
+            <h1>Preços Acessiveis</h1>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Obcaecati esse ea facilis provident mollitia iure similique!
+              Repellendus
+            </p>
+          </div>
+        </div>
+        <div class="caixa-beneficio">
+          <img src="svg/Balao.svg" alt="" />
+          <div class="texto-beneficio">
+            <h1>Atendimento Online</h1>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Obcaecati esse ea facilis provident mollitia iure similique!
+              Repellendus mollitia
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="prod-novos">
+      <div class="head-prod-novos">
+        <h1>Produtos Novos</h1>
+      </div>
+
+      <div class="caixa-flex-prod">
+        <div onmouseover="mostrarTextoPromo()" class="prod-oferta">
+          <h1>Samgung Galaxy</h1>
+          <h4 class="valor-prod"><span class="risco">R$1500</span> R$1100</h4>
+
+          <img src="Img/Items novos/Smartphone.png" alt="" />
+          <h3 class="contagem-promo">12 : 39 : 37</h3>
+          <p id="texto-promo"></p>
+          <img src="svg/carrinho-produto.svg" alt="" />
+        </div>
+        <div class="produtos">
+          <div class="prod-caixa">
+            <img
+              src="/Img/Items novos/Mi Band.png"
+              alt=""
+              class="img-prod img-mi-band"
+            />
+            <h4 class="valor-prod">R$900</h4>
+            <h3>Mi band</h3>
+            <img src="svg/carrinho-produto.svg" alt="" />
+          </div>
+          <div class="prod-caixa">
+            <img
+              src="Img/Items novos/headphonePhillips.png"
+              alt=""
+              class="img-prod"
+            />
+            <h4 class="valor-prod">R$180</h4>
+            <h3>Phillips BlueTooth</h3>
+            <img src="svg/carrinho-produto.svg" alt="" />
+          </div>
+          <div class="prod-caixa">
+            <img
+              src="Img/Items novos/laptop Gamer.png"
+              alt=""
+              class="img-prod"
+            />
+            <h4 class="valor-prod">R$4100</h4>
+            <h3>Le Novo Legion</h3>
+            <img src="svg/carrinho-produto.svg" alt="" />
+          </div>
+          <div class="prod-caixa">
+            <img src="Img/Items novos/jbl.png" alt="" class="img-prod" />
+            <h4 class="valor-prod">R$700</h4>
+            <h3>JBL Speaker</h3>
+            <img src="svg/carrinho-produto.svg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="pe-coluna">
+        <h1>Sobre Nos</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae varius
+          volutpat phasellus cras purus libero quam. Bibendum purus elit tellus
+          lobortis nisi vestibulum risus id. Donec massa vulputate egestas
+          dictum diam euismod. Pulvinar proin aliquam convallis condimentum.
+          Aliquam vulputate erat ac in.
+        </p>
+      </div>
+      <div class="pe-coluna">
+        <h1>Links</h1>
+        <div class="bloco-contato">
+          <img src="svg/Zap.svg" alt="" />
+          <p>(42) 9 9696 - 4343</p>
+        </div>
+
+        <div class="bloco-contato">
+          <img src="svg/Face.svg" alt="" />
+          <a href="">facebook.com.br/UTFShop</a>
+        </div>
+
+        <div class="bloco-contato">
+          <img src="svg/Telegram.svg" alt="" />
+          <p>@UTFShop-Guarapuava</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/timer.js"></script>
+
+    <script src="js/avisos.js"></script>
+    <script src="js/scriptMain.js"></script>
+    <script src="js/codigoPromo.js"></script>
+  </body>
+</html>
