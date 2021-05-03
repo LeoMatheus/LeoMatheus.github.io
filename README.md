@@ -15,13 +15,13 @@ Temporizadores
 
 Funções
 
-- [x] Função anônima com argumento
-- [x] Função anônima sem argumento
-- [x] Função anônima com retorno
-- [x] Função auto-executável
-- [x] Função com nome
-- [x] Função aninhada/local - declarar uma função dentro de outra
-- [x] Passagem de uma função como parâmetro
+- [ ] Função anônima com argumento
+- [ ] Função anônima sem argumento
+- [ ] Função anônima com retorno
+- [ ] Função auto-executável
+- [ ] Função com nome
+- [ ] Função aninhada/local - declarar uma função dentro de outra
+- [ ] Passagem de uma função como parâmetro
 - [x] Função Flecha - Arrow Function
 
 Eventos
