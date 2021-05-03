@@ -8,7 +8,9 @@ var campoSelecionado = function(e){
     return e;
 }
 
-var selec
+
+
+
 
 function aviso(){
     email = prompt("Se deseja receber ofertas digite seu e-mail");
@@ -23,8 +25,13 @@ function aviso(){
         alert("Email não cadastrado");
     }
 
+
     
 };
+
+
+
+
 
 pesquisa[0].addEventListener('blur', (e) =>{
     const val = e.target.value;
