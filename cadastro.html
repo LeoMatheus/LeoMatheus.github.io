@@ -4,10 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="font/css/all.min.css" />
     <link rel="stylesheet" href="css/style.css" />
-
+    <link rel="stylesheet" href="css/cadastro.css" />
     <title>Document</title>
   </head>
+
   <body>
     <header class="main-head">
       <nav class="header-nav">
@@ -24,56 +26,45 @@
       </nav>
     </header>
 
-    <section class="formulario-login">
-      <div class="form-wrapper">
-        <header class="form-head">
-          <h2>Registro</h2>
-        </header>
-        <form>
-          <div class="name-form">
-            <label for="name">Usuario</label>
-            <input
-              type="text"
-              name="name"
-              required
-              placeholder="Crie um nome pro login"
-            />
+    <section class="formulario">
+      <div class="container">
+        <div class="header">
+          <h2>Cadastro</h2>
+        </div>
+        <form class="form" id="form">
+          <div class="form-control">
+            <label for="">Usuario</label>
+            <input type="text" placeholder="florinplo" id="usuario" />
+            <i class="fa fa-check-circle"></i>
+            <i class="fas fa-exclamation-circle"></i>
+            <small>Error</small>
           </div>
-
-          <div class="name-form">
-            <label for="email">Email</label>
-            <input
-              type="text"
-              name="email"
-              required
-              placeholder="Digite Seu Email"
-            />
+          <div class="form-control">
+            <label for="">Email</label>
+            <input type="text" placeholder="email@email.com" id="email" />
+            <i class="fa fa-check-circle"></i>
+            <i class="fas fa-exclamation-circle"></i>
+            <small>Error</small>
           </div>
-
-          <div class="psw-form">
-            <label for="psw">Senha</label>
-            <input
-              type="password"
-              required
-              name="psw"
-              placeholder="Crie uma senha"
-            />
+          <div class="form-control">
+            <label for="">Senha</label>
+            <input type="password" placeholder="password" id="password" />
+            <i class="fa fa-check-circle"></i>
+            <i class="fas fa-exclamation-circle"></i>
+            <small>Error</small>
           </div>
-
-          <div class="psw-form">
-            <label for="psw">Repetir Senha</label>
-            <input
-              type="password"
-              required
-              name="psw"
-              placeholder="Digite a senha novamente"
-            />
+          <div class="form-control">
+            <label for="">Confirme a Senha</label>
+            <input type="password" placeholder="password two" id="password2" />
+            <i class="fa fa-check-circle"></i>
+            <i class="fas fa-exclamation-circle"></i>
+            <small>Error</small>
           </div>
-          <a href="login.html">Ja tem uma conta? Faça o Login ?</a>
-          <button type="submit">Login</button>
+          <button>Submit</button>
         </form>
       </div>
     </section>
+
     <footer>
       <div class="pe-coluna">
         <h1>Sobre Nos</h1>
@@ -103,5 +94,6 @@
         </div>
       </div>
     </footer>
+    <script src="js/cadastro.js"></script>
   </body>
 </html>
