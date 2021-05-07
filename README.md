@@ -75,7 +75,7 @@ Formulário
 
 - [x] Validação de formulário com onsubmit usando os métodos tradicionais
 - [ ] Validação de formulário com HTML5 API
-- [x] Customizar as mensagens nos balões de mensagem
+- [ ] Customizar as mensagens nos balões de mensagem
 - [x] Usar os atributos de validação dos inputs
 - [x] Usar expressões regulares
 - [x] Ler e escrever em elementos input com a propriedade value
